@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rocket_engine name="Willpower">
+  <isp>10000</isp>
+  <maxthrottle>1</maxthrottle>
+  <minthrottle>0</minthrottle>
+  <slfuelflowmax>0.001</slfuelflowmax>
+  <sloxiflowmax>0.001</sloxiflowmax>
+</rocket_engine>

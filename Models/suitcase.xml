@@ -1,0 +1,167 @@
+<PropertyList>
+    <model>
+        <path>Aircraft/suitcase/Models/suitcase.ac</path>
+    </model>
+    
+    <animation>
+        <type>rotate</type>
+        <object-name>Eye-left</object-name>
+        <property>controls/flight/rudder</property>
+        <factor>60</factor>
+        <center>
+            <x-m>0.1388</x-m>
+            <y-m>-0.083103</y-m>
+            <z-m>1.4961</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+        </axis>
+    </animation>
+    
+    <animation>
+        <type>rotate</type>
+        <object-name>Eye-right</object-name>
+        <property>controls/flight/rudder</property>
+        <factor>60</factor>
+        <center>
+            <x-m>0.1388</x-m>
+            <y-m>0.083103</y-m>
+            <z-m>1.4961</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+        </axis>
+    </animation>
+    
+    <animation>
+        <type>rotate</type>
+        <object-name>Eye-left</object-name>
+        <object-name>Eye-right</object-name>
+        <property>controls/flight/elevator</property>
+        <factor>60</factor>
+        <center>
+            <x-m>0.1388</x-m>
+            <y-m>0</y-m>
+            <z-m>1.4961</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>-1</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>translate</type>
+        <object-name>Wheel-front-left</object-name>
+        <property>gear/gear[0]/compression-norm</property>
+        <factor>0.3048</factor>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>translate</type>
+        <object-name>Wheel-front-right</object-name>
+        <property>gear/gear[1]/compression-norm</property>
+        <factor>0.3048</factor>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>translate</type>
+        <object-name>Wheel-back-left</object-name>
+        <property>gear/gear[2]/compression-norm</property>
+        <factor>0.3048</factor>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>translate</type>
+        <object-name>Wheel-back-right</object-name>
+        <property>gear/gear[3]/compression-norm</property>
+        <factor>0.3048</factor>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Wheel-front-left</object-name>
+        <property>gear/gear[0]/steering-norm</property>
+        <factor>360</factor>
+        <center>
+            <x-m>-0.1222</x-m>
+            <y-m>-0.2275</y-m>
+            <z-m> 0.0000</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>rotate</type>
+        <object-name>Wheel-front-right</object-name>
+        <property>gear/gear[1]/steering-norm</property>
+        <factor>360</factor>
+        <center>
+            <x-m>-0.1222</x-m>
+            <y-m> 0.2275</y-m>
+            <z-m> 0.0000</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>rotate</type>
+        <object-name>Wheel-back-left</object-name>
+        <property>gear/gear[2]/steering-norm</property>
+        <factor>360</factor>
+        <center>
+            <x-m> 0.14865</x-m>
+            <y-m>-0.2275</y-m>
+            <z-m> 0.0000</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>rotate</type>
+        <object-name>Wheel-back-right</object-name>
+        <property>gear/gear[3]/steering-norm</property>
+        <factor>360</factor>
+        <center>
+            <x-m> 0.14865</x-m>
+            <y-m> 0.2275</y-m>
+            <z-m> 0.0000</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+        </axis>
+    </animation>
+</PropertyList>

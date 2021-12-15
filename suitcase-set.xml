@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+    
+    <sim>
+        
+        <description>Casey, The Sentient Suitcase</description>
+        <author>Tobias Dammers (nl256) (FDM, Systems), Johan G (SE-JG) (3D)</author>
+        
+        <flight-model>jsb</flight-model>
+        <aero>suitcase</aero>
+        
+        <rating>
+            <FDM type="int">     1 </FDM>
+            <systems type="int"> 1 </systems>
+            <cockpit type="int"> 1 </cockpit>
+            <model type="int">   4 </model>
+        </rating>
+        
+        <model>
+            <path>Aircraft/suitcase/Models/suitcase.xml</path>
+            <start-idling type="bool">true</start-idling>
+            <livery>
+                <file type="string">default</file>
+            </livery>
+        </model>
+        
+        
+        <previews>
+            <preview>
+                <type>exterior</type>
+                <path>Aircraft/suitcase/splash/splash1.jpg</path>
+                <splash type="bool">true</splash>
+            </preview>
+            <preview>
+                <type>exterior</type>
+                <path>Aircraft/suitcase/splash/splash2.jpg</path>
+                <splash type="bool">true</splash>
+            </preview>
+            <preview>
+                <type>exterior</type>
+                <path>Aircraft/suitcase/splash/splash3.jpg</path>
+                <splash type="bool">true</splash>
+            </preview>
+        </previews>
+        
+        <!--
+        <sound>
+          <audible>true</audible>
+          <path>Aircraft/suitcase/Sounds/suitcase-sound.xml</path>
+        </sound>
+        -->
+        
+        <view n="0">
+            <name>Eyes</name>
+            <config>
+                <x-offset-m type="double">0.0</x-offset-m>
+                <y-offset-m type="double">1.5</y-offset-m>
+                <z-offset-m type="double">0.0</z-offset-m>
+            </config>
+        </view>
+        <view n="1">
+            <name>Helicopter</name>
+            <config>
+                <target-x-offset-m type="double">0</target-x-offset-m>
+                <target-y-offset-m type="double">1</target-y-offset-m>
+                <target-z-offset-m type="double">0</target-z-offset-m>
+            </config>
+        </view>
+    </sim>
+    
+    <consumables>
+        <fuel>
+            <tank n="0">
+                <name>Sentience</name>
+            </tank>
+            <tank n="1">
+                <name>Determination</name>
+            </tank>
+        </fuel>
+    </consumables>
+    
+    <payload>
+        <weight n="0">
+            <name>Clothes And Stuff</name>
+            <min-lb>0</min-lb>
+            <max-lb>70</max-lb>
+            <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[0]"/>
+        </weight>
+    </payload>
+    
+    <input>
+        <keyboard />
+    </input>
+    
+    <nasal>
+    </nasal>
+</PropertyList>
